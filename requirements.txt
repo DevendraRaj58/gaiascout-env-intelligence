@@ -29,7 +29,7 @@ rank-bm25
 
 # --- Embeddings (runs FULLY LOCAL — no API key needed) ---
 sentence-transformers
-torch==2.5.1                    # CPU version; avoids GPU requirement
+torch==2.9.0                    # CPU version; avoids GPU requirement
 transformers==4.44.2
 # --- SQLite (Structured Knowledge Layer) ---
 # sqlite3 is part of Python stdlib — no install needed
