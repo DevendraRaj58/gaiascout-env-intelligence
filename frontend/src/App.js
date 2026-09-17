@@ -43,7 +43,7 @@ function App() {
           payload[key] = formData[key];
         }
       });
-      const res = await axios.post('http://localhost:8000/analyze', payload);
+      const res = await axios.post(process.env.REACT_APP_API_URL + '/analyze', payload);
       setResponse(res.data);
     } catch (err) {
       setError(err.response ? err.response.data : err.message);
@@ -62,7 +62,7 @@ function App() {
           payload[key] = formData[key];
         }
       });
-      const res = await axios.post('http://localhost:8000/analyze/stream', payload, {
+      const res = await axios.post(process.env.REACT_APP_API_URL + '/analyze/stream', payload, {
         responseType: 'stream'
       });
       // For simplicity, we'll just collect the data and show the last message
