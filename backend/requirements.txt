@@ -10,8 +10,8 @@ sse-starlette==2.1.0         # Server-Sent Events for streaming
 
 # --- Environment & Config ---
 python-dotenv==1.0.1
-pydantic==2.7.1
-pydantic-settings==2.3.1
+pydantic==2.6.3
+pydantic-settings==2.2.1
 
 # --- LangChain Ecosystem (the agent orchestration layer) ---
 langchain

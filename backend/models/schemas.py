@@ -103,7 +103,7 @@ class SoilMetrics(BaseModel):
     bulk_density:        Optional[float] = Field(None, ge=0, le=2.5,  description="Bulk density (g/cm³)")
     erosion_risk:        Optional[str]   = Field(None,                 description="Erosion risk: none/low/medium/high/very_high")
 
-    @field_validator("ph")
+    @validator("ph")
     @classmethod
     def ph_range(cls, v):
         if v is not None and not (0 <= v <= 14):
