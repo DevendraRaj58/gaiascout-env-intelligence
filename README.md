@@ -1,4 +1,4 @@
-# Darukaa.Earth: AI Biodiversity Intelligence Chatbot
+# AI Biodiversity Intelligence Chatbot
 
 GaiaScout is an AI-powered conversational system designed for the Darukaa.Earth Hackathon. It maintains a structured knowledge base of biodiversity and environmental metrics, understands user queries about ecosystems, and generates actionable, evidence-backed recommendations to improve biodiversity.
 
